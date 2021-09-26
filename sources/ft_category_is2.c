@@ -6,7 +6,7 @@
 /*   By: tshimoda <tshimoda@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/31 22:56:35 by tshimoda          #+#    #+#             */
-/*   Updated: 2021/09/14 09:08:43 by tshimoda         ###   ########.fr       */
+/*   Updated: 2021/09/18 08:22:45 by tshimoda         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ void	category_is_unsign(t_data *box)
 		box->sum += ft_unsl((unsigned int)va_arg(box->list, unsigned int), box);
 	else if (ft_is_uneven(box->flag_combo / ZERO) && \
 			!ft_is_uneven(box->flag_combo / PRECISION))
-		box->sum += ft_unsz((unsigned int)va_arg(box->list, int), box);
+		box->sum += ft_unsz((unsigned int)va_arg(box->list, unsigned int), box);
 	else
 		box->sum += ft_unsr((unsigned int)va_arg(box->list, unsigned int), box);
 }

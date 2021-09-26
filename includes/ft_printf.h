@@ -6,7 +6,7 @@
 /*   By: tshimoda <tshimoda@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/25 14:46:17 by tshimoda          #+#    #+#             */
-/*   Updated: 2021/09/14 09:07:54 by tshimoda         ###   ########.fr       */
+/*   Updated: 2021/09/26 12:56:51 by tshimoda         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,6 @@ typedef struct s_data
 	int			minuspre;
 	int			vernier;
 	int			width;
-	int			scan;
 	int			sign;
 	int			sum;
 	int			pos;
